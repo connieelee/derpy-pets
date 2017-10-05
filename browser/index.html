@@ -1,40 +1,26 @@
 <!DOCTYPE html>
   <head>
     <title>derpy pets</title>
-    
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <!-- Materialize Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-    
-    <!-- Matieralize Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Roboto:300" rel="stylesheet">
 
     <!-- Our react app bundle -->
     <script src="/bundle.js" defer></script>
   </head>
 
   <body>
-    <div class="App">
-      <div class="App-header">
-        <img src="/logo.png" class="App-logo" alt="logo" />
-        <h3>derpy pets</h3>
-      </div>
+    <div class="header">
+      <img class="logo" src="/logo.png" alt="logo" />
+      <h3>derpy pets</h3>
+    </div>
 
-      <div class="container cat-or-dog">
-        <div class="row">
-          <button class="btn-flat btn-large col s5">I WANT A MEOWER</button>
-          <button class="btn-flat btn-large col s5 offset-s2">I WANT A BARKER</button>
-        </div>
-      </div>
+    <div class="filters">
+      <button>I WANT A MEOWER</button>
+      <button>I WANT A BARKER</button>
+    </div>
 
-      <div class="App-content container-fluid">
-        <h4>welcome to derpy pets animal shelter!</h4>
-      </div>
+    <div class="gallery">
+      <h4>welcome to derpy pets animal shelter!</h4>
     </div>
   </body>
 </html>
