@@ -49,17 +49,22 @@ h1,h2,h3,h4,h5,h6 {
   outline: none;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.app {
   font-size: 1.5rem;
   padding: 1vw;
   background-color: #f6f2ea;
   min-height: 60vh;
 }
-.animal-card {
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gallery .animal-card {
   flex: 0 1 25%;
+}
+.animal-card img {
+  height: 17rem;
 }
 
 @keyframes logo-spin {
