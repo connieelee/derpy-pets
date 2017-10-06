@@ -45,8 +45,9 @@ h1,h2,h3,h4,h5,h6 {
 .filters button:hover {
   background-color: #f5f5f5;
 }
-.filters button:active {
+.filters button:focus {
   outline: none;
+  background-color: #f5f5f5;
 }
 
 .app {
