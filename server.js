@@ -10,5 +10,5 @@ app.get('*', (req, res, next) => {
 });
 
 app.listen(1337, () => {
-  console.log('melting hearts of animal lovers on 1337');
+  console.log('raining cats and dogs on 1337');
 });
