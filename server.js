@@ -10,5 +10,5 @@ app.get('*', (req, res, next) => {
 });
 
 app.listen(1337, () => {
-  console.log('derping on port 1337');
+  console.log('melting hearts of animal lovers on 1337');
 });
