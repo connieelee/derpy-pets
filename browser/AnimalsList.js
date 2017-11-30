@@ -1,9 +1,9 @@
 import React from 'react';
 
-const AnimalsList = ({ type, animals }) => {
+const AnimalsList = ({ animals, match }) => {
   return (
     <div>
-      <h2>{type}</h2>
+      <h2>{match.path.slice(1)}</h2>
       <div className="gallery">
       {
         animals.map(animal => {
